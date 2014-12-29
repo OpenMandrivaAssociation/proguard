@@ -1,7 +1,9 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           proguard
 Version:        5.1
-Release:        1%{?dist}
+Release:        1.1
 Summary:        Java class file shrinker, optimizer, obfuscator and preverifier
+Group:		Development/Java
 
 License:        GPLv2+
 URL:            http://proguard.sourceforge.net
@@ -36,7 +38,7 @@ The manual for %{name}.
 Summary:        GUI for %{name}
 # we convert the favicon.ico to png files of different sizes, so we require
 # ImageMagick
-BuildRequires:  ImageMagick
+BuildRequires:  imagemagick
 BuildRequires:  desktop-file-utils
 Requires:       jpackage-utils
 Requires:       %{name} = %{version}-%{release}
