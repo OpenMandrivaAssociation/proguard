@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           proguard
 Version:        5.1
-Release:        1.2
+Release:        1.3
 Summary:        Java class file shrinker, optimizer, obfuscator and preverifier
 Group:		Development/Java
 
