@@ -6,7 +6,7 @@ Summary:        Java class file shrinker, optimizer, obfuscator and preverifier
 Group:		Development/Java
 
 License:        GPLv2+
-URL:            http://proguard.sourceforge.net
+URL:            https://proguard.sourceforge.net
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}%{version}.tar.gz
 Source1:        %{name}.desktop
 Source2:        README.dist
